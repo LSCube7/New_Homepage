@@ -30,7 +30,7 @@ export function PartHitokoto() {
         const { uuid, hitokoto: hitokotoText } = await response.json();
         setHitokoto(hitokotoText);
         setUuid(uuid);
-      } catch (e) {
+      } catch {
         setHitokoto('获取失败');
       }
     }
