@@ -4,7 +4,7 @@ import Image from 'next/image';
 import PartContacts from './parts/contacts';
 import PartHobbies from './parts/hobbies';
 import PartLabels from './parts/labels';
-import {PartMotto, PartTitle} from './parts/title';
+import {PartHitokoto, PartTitle} from './parts/title';
 import PartSpace from "@/app/components/parts/space";
 
 export default function Main() {
@@ -21,7 +21,7 @@ export default function Main() {
         <Image
           itemProp='image'
           priority={true}
-          src='/image.png'
+          src='/avatar.jpg'
           alt='Avatar'
           width={256}
           height={256}
@@ -33,16 +33,16 @@ export default function Main() {
           <PartHobbies/>
           <PartContacts/>
           <PartSpace/>
-          <PartMotto/>
+          <PartHitokoto/>
         </div>
         <div className='max-w-sm self-end hidden lg:block animate-img fixed bottom-0 right-0'>
           <Image
             itemProp='image'
             priority={true}
-            src='/image.png'
+            src='/body.png'
             alt='Avatar'
-            width={384}
-            height={510}
+            width={345}
+            height={306}
           />
         </div>
         <TooltipProvider/>

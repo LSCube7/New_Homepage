@@ -12,25 +12,34 @@ export default function PartHobbies() {
     >
       <Badge
         icon='FaCube'
-        tooltip='ID: Alex3236'
-        content='Alex3236'
-        name='MC'
+        tooltip='ID: xiao_fang_he'
+        content='xiao_fang_he'
+        name='Minecraft'
         className='bg-green-700 text-white'
       />
       <Badge
+        icon='FaGamepad'
+        tooltip='ID: 小方盒LSCube#LSC'
+        content='小方盒LSCube#LSC'
+        name='Valorant'
+        className='bg-red-500 text-white'
+      />
+
+      <Badge
         icon='FaTrain'
-        tooltip='UID: 100851312'
-        content='100851312'
-        name='星铁'
+        disabled={true}
+        content='公共交通'
+        name='公共交通'
         className='bg-cyan-700 text-white'
       />
       <Badge
-        icon='FaGamepad'
-        tooltip='UID: 221356958'
-        content='221356958'
-        name='原神'
-        className='bg-cyan-700 text-white'
+        icon='FaHurricane'
+        disabled={true}
+        content='气象'
+        name='气象'
+        className='bg-blue-700 text-white'
       />
+
     </PartHolder>
   );
 }

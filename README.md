@@ -1,6 +1,8 @@
-# Alex3236.top
+# lsc7.top
 
-[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/homepage-six-mu?style=for-the-badge)](https://alex3236.top)
+**This is a project adjusted from [alex3236/alex3236.top](github.com/alex3236/alex3236.top)**
+
+[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/homepage-six-mu?style=for-the-badge)](https://www.lsc7.top)
 
 我的个人主页。
 

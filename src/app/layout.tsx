@@ -9,9 +9,9 @@ const notoSans = Noto_Sans_SC({
 });
 
 export const metadata: Metadata = {
-  title: '你好！这里是 Alex3236',
-  description: '这是我的个人主页！请多指教~',
-  keywords: ['Alex3236', '个人主页', 'Alex32768', 'ely32768'],
+  title: '小方盒の主页',
+  description: '这是我的个人主页！请多指教喵~',
+  keywords: ['小方盒LSCube', '个人主页', '方盒', 'LSC'],
   icons:
     "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥺</text></svg>",
 };

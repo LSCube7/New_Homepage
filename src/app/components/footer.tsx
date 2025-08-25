@@ -25,10 +25,10 @@ export default function Footer() {
       id='icp'
       className='z-20  fixed mt-6 bottom-0 px-2 w-full h-fit text-sm lg:text-base lg:w-fit lg:top-0 lg:right-4 lg:rounded-full bg-opacity-85 justify-center items-center flex align-middle text-white bg-gray-600'
     >
-      <A href='https://icp.gov.moe/?keyword=20233236'>萌ICP备20233236</A> |
+      <A href='https://icp.gov.moe/?keyword=20252029'>萌ICP备20252029</A> |
       <A
         ariaLabel='此项目的 Github 页面'
-        href='https://github.com/alex3236/alex3236.top'
+        href='https://github.com/LSCube7/New_Homepage'
       >
         <FaGithub/>
       </A>

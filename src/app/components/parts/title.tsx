@@ -10,21 +10,50 @@ export function PartTitle() {
       <h2 className='text-3xl md:text-4xl font-bold mt-4 text-sky-800 dark:text-blue-300'>
         这里是
         <span itemProp='name' className='px-2 text-sky-900 dark:text-blue-400'>
-          Alex3236
+          小方盒LSCube
         </span>
       </h2>
     </>
   );
 }
 
-export function PartMotto() {
-  const motto =
-    Math.random() < 0.5
-      ? '不要因为走得太远，就忘了当初为什么出发。'
-      : '只要不失去你的崇高，整个世界都会向你敞开。';
+import React, { useEffect, useState } from 'react';
+
+export function PartHitokoto() {
+  const [hitokoto, setHitokoto] = useState('加载中...');
+  const [uuid, setUuid] = useState('');
+
+  useEffect(() => {
+    async function fetchHitokoto() {
+      try {
+        const response = await fetch('https://v1.hitokoto.cn');
+        const { uuid, hitokoto: hitokotoText } = await response.json();
+        setHitokoto(hitokotoText);
+        setUuid(uuid);
+      } catch (e) {
+        setHitokoto('获取失败');
+      }
+    }
+    fetchHitokoto();
+  }, []);
+
   return (
     <h3 className='mt-6 text-xl text-sky-900 dark:text-sky-200 leading-relaxed'>
-      「 <B>{motto}</B> 」
+      「
+      {uuid ? (
+        <a
+          id='hitokoto_text'
+          href={`https://hitokoto.cn/?uuid=${uuid}`}
+          target='_blank'
+          rel='noopener noreferrer'
+          className='hover:text-blue-500'
+        >
+          <B>{hitokoto}</B>
+        </a>
+      ) : (
+        <B>{hitokoto}</B>
+      )}
+      」
     </h3>
   );
 }

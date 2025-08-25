@@ -13,21 +13,21 @@ export default function PartLabels() {
       <Badge
         disabled={true}
         icon='FaTent'
-        name='INFP'
+        name='INTP'
         className='bg-slate-700 text-white'
       />
       <Badge
         itemProp='birthDate'
         disabled={true}
         icon='FaCakeCandles'
-        name='十月廿一'
+        name='9月14日 | 八月十五'
         className='bg-pink-700 text-white'
       />
       <Badge
         itemProp='homeLocation'
         disabled={true}
         icon='FaLocationDot'
-        name='重庆开州 | 福建泉州'
+        name='中国上海'
         className='bg-blue-700 text-white'
       />
       <br/>
@@ -41,9 +41,10 @@ export default function PartLabels() {
 
       <Badge
         disabled={true}
-        icon='FaFish'
-        name='摆大烂'
-        className='bg-gray-600 text-white'
+        strikeThrough={true}
+        icon='FaCat'
+        name='猫娘'
+        className='bg-slate-500 text-white'
       />
       <Badge
         disabled={true}

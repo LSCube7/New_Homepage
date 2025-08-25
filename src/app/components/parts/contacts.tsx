@@ -13,69 +13,66 @@ export default function PartContacts() {
       <Badge
         icon='FaGithub'
         tooltip='Github'
-        url='https://github.com/alex3236'
-        name='Alex3236'
-        className='bg-slate-900 text-white dark:border-slate-500 dark:border'
-      />
-      <Badge
-        icon='FaXTwitter'
-        tooltip='X'
-        url='https://x.com/alex32768'
-        name='@Alex32768'
+        url='https://github.com/LSCube7'
+        name='LSCube7'
         className='bg-slate-900 text-white dark:border-slate-500 dark:border'
       />
       <Badge
         icon='FaBilibili'
         tooltip='哔哩哔哩'
-        url='https://space.bilibili.com/1748925320'
-        name='@令使'
+        url='https://space.bilibili.com/1905648956'
+        name='@小方盒LSCube'
         className='bg-pink-600 text-white'
       />
       <Badge
-        icon='FaMusic'
-        tooltip='QQ 音乐'
-        url='https://y.qq.com/n/ryqq/profile?uin=owSz7wEqow4qNv**'
-        name='Alex3236'
-        className='bg-yellow-700 text-white'
+        icon='FaZhihu'
+        tooltip='知乎'
+        url='https://www.zhihu.com/people/LSCube'
+        name='小方盒LSCube'
+        className='bg-blue-600 text-white'
       />
       <Badge
-        icon='FaDiscord'
-        tooltip='Discord'
-        name='alex3236'
-        className='bg-slate-900 text-white dark:border-slate-500 dark:border'
+        icon='FaMusic'
+        tooltip='网易云音乐'
+        url='https://music.163.com/#/user/home?id=5156131231'
+        name='小方盒LSCube'
+        className='bg-red-600 text-white'
+      />
+      <Badge
+        icon='FaWeibo'
+        tooltip='微博'
+        url='https://www.weibo.com/u/7407712028'
+        name='小方盒LSCube'
+        className='bg-orange-500 text-white'
       />
       <Badge
         icon='FaSteamSymbol'
         tooltip='Steam'
-        name='alex3236_'
+        url='https://steamcommunity.com/id/LSC7'
+        name='小方盒'
         className='bg-slate-900 text-white dark:border-slate-500 dark:border'
       />
       <Badge
-        icon='FaQq'
-        tooltip='QQ'
-        name='2706992599'
-        className='bg-red-900 text-white'
+        icon='FaXTwitter'
+        tooltip='X'
+        url='https://x.com/LSCube777'
+        name='@LSCube777'
+        className='bg-slate-900 text-white dark:border-slate-500 dark:border'
       />
       <Badge
-        icon='FaWeixin'
-        tooltip='微信'
-        name='ely32768'
-        className='bg-green-800 text-white'
-      />
-      <Badge
-        icon='FaPaperPlane'
-        tooltip='Telegram'
-        url='https://t.me/ely_32768'
-        name='ely_32768'
-        className='bg-blue-900 text-white'
+        icon='FaYoutube'
+        tooltip='YouTube'
+        url='https://www.youtube.com/@LSC7'
+        name='小方盒LSCube'
+        className='bg-red-600 text-white'
       />
       <Badge
         icon='FaEnvelope'
         tooltip='邮箱'
         itemProp='email'
-        url='@me;alex3236.moe'
+        url='@lscube;lsc7.top'
         className='bg-zinc-600 text-white'
-      ><span className='before:content-["me@"]'>alex3236.moe</span></Badge>
+      ><span className='before:content-["lscube@"]'>lsc7.top</span></Badge>
     </PartHolder>
   );
 }

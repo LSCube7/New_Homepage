@@ -7,7 +7,7 @@ export default function Home() {
     '@type': 'ProfilePage',
     mainEntity: {
       '@type': 'Person',
-      name: 'Alex3236',
+      name: '小方盒LSCube',
       image: 'https://alex3236.top/image.png',
     },
   };
