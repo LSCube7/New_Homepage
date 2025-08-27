@@ -8,7 +8,7 @@ export default function Home() {
     mainEntity: {
       '@type': 'Person',
       name: '小方盒LSCube',
-      image: 'https://alex3236.top/image.png',
+      image: 'https://www.lsc7.top/avatar.png',
     },
   };
   return (
