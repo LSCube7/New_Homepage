@@ -27,7 +27,7 @@ export default function PartLabels() {
         itemProp='homeLocation'
         disabled={true}
         icon='FaLocationDot'
-        name='中国上海'
+        name='中国，上海'
         className='bg-blue-700 text-white'
       />
       <br/>
@@ -35,10 +35,16 @@ export default function PartLabels() {
         itemProp='jobTitle'
         disabled={true}
         icon='FaGraduationCap'
-        name='学生'
+        name='高中生'
         className='bg-gray-600 text-white'
       />
 
+      <Badge
+        disabled={true}
+        icon="FaEarthAsia"
+        name='ESOer'
+        className='bg-green-700 text-white'
+      />
       <Badge
         disabled={true}
         strikeThrough={true}

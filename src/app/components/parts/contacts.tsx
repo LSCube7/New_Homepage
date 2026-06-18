@@ -39,13 +39,6 @@ export default function PartContacts() {
         className='bg-red-600 text-white'
       />
       <Badge
-        icon='FaWeibo'
-        tooltip='微博'
-        url='https://www.weibo.com/u/7407712028'
-        name='小方盒LSCube'
-        className='bg-orange-500 text-white'
-      />
-      <Badge
         icon='FaSteamSymbol'
         tooltip='Steam'
         url='https://steamcommunity.com/id/LSC7'
@@ -55,8 +48,8 @@ export default function PartContacts() {
       <Badge
         icon='FaXTwitter'
         tooltip='X'
-        url='https://x.com/LSCube777'
-        name='@LSCube777'
+        url='https://x.com/LSCube_owo'
+        name='@LSCube_owo'
         className='bg-slate-900 text-white dark:border-slate-500 dark:border'
       />
       <Badge

@@ -19,18 +19,6 @@ export default function PartSpace() {
       className='bg-green-700 text-sky-50 text-sm align-[0.1em]'
     />
     <Badge
-      icon="FaServer"
-      url="https://mc.lsc7.top"
-      name="Minecraft 服务器 ➡"
-      className='bg-gray-700 text-sky-50 text-sm align-[0.1em]'
-    />
-    <Badge
-      icon="FaCloud"
-      url="https://file.lsc7.top"
-      name="云上の方盒 ➡"
-      className='bg-pink-500 text-sky-50 text-sm align-[0.1em]'
-    />
-    <Badge
       icon="FaToolbox"
       url="https://henguren.lsc7.top"
       name="恨古人工具箱 ➡"
